@@ -1,0 +1,84 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #94ccec;
+  color: #333;
+}
+
+/* Navigation */
+header {
+  background: #9deaff;
+  padding: 1rem 0;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+nav ul li {
+  margin: 0 15px;
+}
+nav ul li a {
+  color: #fbfbfb;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav ul li a:hover {
+  color: #ffaa2a;
+}
+
+/* Sections */
+.section {
+  padding: 60px 20px;
+  text-align: center;
+}
+.section h1, .section h2 {
+  margin-bottom: 20px;
+  color: #222;
+}
+.section p {
+  max-width: 600px;
+  margin: 10px auto;
+  color: #555;
+}
+
+/* Skills */
+.skills-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;  
+  object-fit: cover;    
+  margin-top: 20px;
+  border: 3px solid #0e0c08;
+}
+
+
+.skills-list li {
+  background: #6a6966;
+  color: #eff7fe;
+  margin: 10px;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+/* Footer */
+footer {
+  background: #222;
+  color: #a6d6df;
+  text-align: center;
+  padding: 15px 0;
+}
